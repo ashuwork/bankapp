@@ -12,17 +12,16 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-public class ApplicationConfig {
-
+public class ApplicationConfig 
+{
     @Bean
-    public Docket api() {
+    public Docket apid() {
         return new Docket(DocumentationType.SWAGGER_2)
         		.apiInfo(apiInfo())
                 .select()
                 .paths(PathSelectors.any())
                 .build();
     }
-    
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("BANKING APPLICATION REST API")
         		.description("API for Banking Application.")

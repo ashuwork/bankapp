@@ -8,9 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * 
  * Spring security denied access to h2-console.
  * This configuration will resolve 403 forbidden error when accessing h2-console.
- * 
- * @author sbathina
- *
+ 
  */
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
