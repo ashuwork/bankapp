@@ -14,7 +14,7 @@ RESTful API to simulate simple banking operations.
 1. Checkout the project from GitHub
 
 ```
-git clone https://github.com/sbathina/BankApp
+git clone https://github.com/ashuwork/bankapp.git
 
 ```
 2. Enable Lombok support on your IDE
